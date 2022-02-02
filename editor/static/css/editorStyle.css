@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;
+    font-size:14px;
+}
+
+.navbar{
+    margin-bottom: 10px;
+}
+
+
+.dropdown-toggle {
+    font-size: 15px !important;
+}
+
+.dropdown {
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.dropdown-menu>li>a {
+    color: #428bca;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.dropdown ul.dropdown-menu {
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.dropdown ul.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -8px;
+    right: 8px;
+    z-index: 10;
+}
+
+
+#editor-workspace {
+    height: 580px;
+
+}
+
+#minimizeTerminal {
+    margin-right: 15px;
+}
+
+#reloadTerminal {
+    margin-right: 15px;
+}
+
+#terminal-fullscreen {
+    margin-right: 15px;
+}
+
+#terminal-iframe {
+    background-color: #3c3030;
+    background: url(rolling.gif) center center no-repeat;
+}
+
+.panel-heading span {
+    margin-top: -10px;
+}
+
+#statusBar {
+    margin-top: -15px;
+}
+
+#terminal-panel {
+    height: 100%;
+}
+
+
+#testcase-panel{
+    background: lightblue;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+#testcase-panel>.panel {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+
+.panel.noborder {
+    border: none;
+    box-shadow: none;
+}
+
+.panel.noborder>.panel-heading {
+    border: 0px solid #dddddd;
+    border-radius: 0;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#filetree {
+    height: 100%;
+}
+
+#editor-panel {
+    height: 100%;
+}
+
+#output-panel {
+    height: 100%;
+}
+
+#fileButton {
+    display: none;
+}
+
+div.text-editor-panel {
+    height: 100%;
+    /*width:100%;*/
+}
+
+#codeEditor {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#executeButton {
+    width: 100%;
+}
+
+#execTestButton {
+    width: 100%;
+}
+
+.CodeMirror {
+    position: relative;
+    height: 470px;
+}
+
+.panel-actions {
+    margin-top: -10px;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.panel-actions a {
+    color: #333;
+}
+
+.panel-fullscreen {
+    position: fixed;
+    display: block;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+.terminal-fullscreen {
+    position: fixed;
+    display: block;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+#output-panel>.panel {
+    height: 100%;
+    overflow-y: auto;
+}
+
+#filetree-panel {
+    height: 100%;
+    overflow: auto;
+
+}
+
+#filetreepanel .fancytree-container {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    font-size: 12pt;
+}
+
+#stdoutput {
+    /*enable line wrap for output window1*/
+    position: relative;
+    /*height: 100%;*/
+    white-space: pre-wrap;
+    /* css-3 */
+    white-space: -moz-pre-wrap;
+    /* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* Internet Explorer 5.5+ */
+}
+
+#filetreepanel {
+    background: rgba(71, 43, 232, 0.29);
+}

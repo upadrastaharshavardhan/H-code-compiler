@@ -1,0 +1,33 @@
+#tabs {
+    margin-top: 0em;
+}
+
+#tabs li .ui-icon-close {
+    float: left;
+    margin: 0.4em 0.2em 0 0;
+    cursor: pointer;
+}
+
+.ui-tabs .ui-tabs-nav {
+    margin-left: 0px;
+    margin-top: 8px;
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 0.1em 0em 0em 0em;
+    background: none;
+}
+
+.ui-widget.ui-widget-content {
+    border: 0px solid #c5c5c5;
+}
+
+#add-tab{
+    margin-left: 5px;
+    margin-top: 5px;
+}
